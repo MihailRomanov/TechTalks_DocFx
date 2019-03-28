@@ -1,0 +1,44 @@
+--------- docfx.json
+
+"src": [
+        {
+          "files": [
+            "**.csproj"
+          ],
+          "src" : "../src/"
+        }
+      ],
+
+
+------- docfx.json
+
+ "pdf": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "articles/**.md",
+          "index.md",
+          "pdf/toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "dest": "_site_pdf"
+  }
+
+
+---- pdf/toc.yml
+
+- name: Intro
+  href: ../index.md
+- name: Articles
+  href: ../articles/toc.yml
+- name: Api Documentation
+  href: ../api/toc.yml

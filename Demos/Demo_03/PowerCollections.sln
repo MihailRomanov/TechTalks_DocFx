@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wintellect.PowerCollections", "src\PowerCollections\Wintellect.PowerCollections.csproj", "{5821977D-AC2C-4912-BCD0-6E6B1A756167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wintellect.PowerCollections.Tests", "src\UnitTestsVSTS\Wintellect.PowerCollections.Tests.csproj", "{CCCE4A05-6914-48E9-B232-A8827BCDE681}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5821977D-AC2C-4912-BCD0-6E6B1A756167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCCE4A05-6914-48E9-B232-A8827BCDE681}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCCE4A05-6914-48E9-B232-A8827BCDE681}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCCE4A05-6914-48E9-B232-A8827BCDE681}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCCE4A05-6914-48E9-B232-A8827BCDE681}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A8018EE-8709-4FFB-898C-8ED5683D1BC3}
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PowerCollections.vsmdi
+	EndGlobalSection
+EndGlobal
