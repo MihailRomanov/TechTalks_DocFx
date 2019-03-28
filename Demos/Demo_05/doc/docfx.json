@@ -60,7 +60,8 @@
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "globalMetadata": {
-      "_disableContribution" :  true
+      "_disableContribution": true,
+      "_appTitle": "demo_05"
     }
   },
   //"pdf": {
